@@ -9,5 +9,5 @@
 ## Clone 遠端倉到本地
 
 - 先到指令目錄
-- 下指令 git clone 遠端倉的路徑
+- 下指令 git clone https://github.com/ossian-to/test.git
 -
