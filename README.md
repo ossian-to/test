@@ -1,5 +1,13 @@
 # Git 基礎教學
 
+## 第一次初始化設定
+
+  - 先來到本地倉的目錄位置
+  - 初始化 git init
+  - 設定遠端倉的位置 git remote add origin 遠端倉位置
+  - 設定 pull 來源的分支名稱 git pull --set-upstream origin master (預設通常都叫 master 或 main)
+  - 設定 push 來源的分支名稱 git push --set-upstream origin master (預設通常都叫 master 或 main)
+
 ## 如何指定本地倉，並連結到遠端倉的路徑及指定分支
 
   - 先來到本地倉的目錄位置
@@ -8,8 +16,7 @@
   - 將遠端倉的內容拉回本機端(如果有的話) git pull origin master (預設通常都叫 master 或 main)
   - 將本地倉的檔案送暫存 git add .
   - 註解檔案並設定斷點 git commit -m "註解的內容"
-  - 推送到遠端倉 git push origin master
-    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master 或 git push -u origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
+  - 推送到遠端倉 git push
   - 完成
 
 ## 如何將遠端倉的內容複製到自己的電腦裡
@@ -21,8 +28,7 @@
 
   - 將本地倉的檔案送到盤點的暫存區 git add .
   - 註解檔案並設定 git 斷點 git commit -m "註解的內容"
-  - 推送到遠端倉 git push origin master
-    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master 或 git push -u origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
+  - 推送到遠端倉 git push
   - 完成
 
 ## 如何查詢當前目錄下的遠端倉有哪些?
