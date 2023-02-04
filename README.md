@@ -9,7 +9,7 @@
   - 將本地倉的檔案送暫存 git add .
   - 註解檔案並設定斷點 git commit -m "註解的內容"
   - 推送到遠端倉 git push origin master
-    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
+    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master 或 git push -u origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
   - 完成
 
 ## 如何將遠端倉的內容複製到自己的電腦裡
@@ -22,7 +22,7 @@
   - 將本地倉的檔案送到盤點的暫存區 git add .
   - 註解檔案並設定 git 斷點 git commit -m "註解的內容"
   - 推送到遠端倉 git push origin master
-    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
+    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master 或 git push -u origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
   - 完成
 
 ## 如何查詢當前目錄下的遠端倉有哪些?
