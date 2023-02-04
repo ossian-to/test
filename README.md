@@ -5,10 +5,12 @@
   - 先來到本地倉的目錄位置
   - 初始化 git init
   - 連結到遠端倉的路徑 git remote add origin 遠端倉的路徑
-  - 先將遠端倉的內容拉回本機端(如果有的話) git pull origin master (預設通常都叫 master 或 main)
+  - 將遠端倉的內容拉回本機端(如果有的話) git pull origin master (預設通常都叫 master 或 main)
   - 將本地倉的檔案送暫存 git add .
   - 註解檔案並設定斷點 git commit -m "註解的內容"
-  - 推送到遠端倉 git push
+  - 推送到遠端倉 git push origin master
+    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
+  - 完成
 
 ## 如何將遠端倉的內容複製到自己的電腦裡
 
@@ -17,10 +19,10 @@
 
     這樣就完成一次的複製動作，接下來你在自己電腦中進行任何的修改，修改完成後再將檔案 push 推回遠端倉
 
-  - 將本地倉的檔案送暫存 git add .
-  - 註解檔案並設定斷點 git commit -m "註解的內容"
+  - 將本地倉的檔案送到盤點的暫存區 git add .
+  - 註解檔案並設定 git 斷點 git commit -m "註解的內容"
   - 推送到遠端倉 git push origin master
-  - 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master
+    > 如果不想每次推送都要加 origin master 的話，可以再推送前先設定源頭的位置，方式如下 git push --set-upstream origin master (master 遠端分支的名稱，通常不是 master 要不就是 main)
   - 完成
 
 ## 如何查詢當前目錄下的遠端倉有哪些?
