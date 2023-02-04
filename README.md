@@ -19,7 +19,8 @@
 
   - 將本地倉的檔案送暫存 git add .
   - 註解檔案並設定斷點 git commit -m "註解的內容"
-  - 推送到遠端倉 git push
+  - 推送到遠端倉 git push origin master
+  - 完成
 
 ## 如何查詢當前目錄下的遠端倉有哪些?
 
