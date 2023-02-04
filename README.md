@@ -7,6 +7,7 @@
   - 設定遠端倉的位置 git remote add origin 遠端倉位置
   - 設定 pull 來源的分支名稱 git pull --set-upstream origin master (預設通常都叫 master 或 main)
   - 設定 push 來源的分支名稱 git push --set-upstream origin master (預設通常都叫 master 或 main)
+    > pull & push 只需在第一次使用時設定 --set-upstream 即可，這兩個其中一個設定好後，另一個就可以直接使用，不用個別設定。
 
 ## 如何指定本地倉，並連結到遠端倉的路徑及指定分支
 
